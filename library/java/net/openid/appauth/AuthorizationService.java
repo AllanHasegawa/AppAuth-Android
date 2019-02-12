@@ -103,7 +103,6 @@ public class AuthorizationService {
     /**
      * Constructor that injects a url builder into the service for testing.
      */
-    @VisibleForTesting
     AuthorizationService(@NonNull Context context,
                          @NonNull AppAuthConfiguration clientConfiguration,
                          @Nullable BrowserDescriptor browser,
